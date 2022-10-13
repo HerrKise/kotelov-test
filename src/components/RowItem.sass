@@ -1,0 +1,84 @@
+%table-grid
+    display: grid
+    grid-template-columns: 110px 757px 200px 200px 200px 200px
+    justify-items: start
+    align-items: center
+    justify-content: center
+
+%table-font
+    padding: 21px 12px
+    font-size: 14px
+    line-height: 18.2px
+    color: #FFFFFF
+    
+.main__table-row
+    @extend %table-grid
+    position: relative
+    border-top: 1px solid #414144
+
+.main__row-element
+    @extend %table-font
+    
+
+.price
+    grid-column: 6 / -1
+    
+
+.main__table-btns
+    
+    display: flex
+    align-items: center
+    overflow: hidden
+
+.hover
+    background: #414144
+    border-radius: 6px
+
+.main-icon
+    display: flex
+    align-items: center
+    
+
+.create-button
+    display: flex
+    border: none
+    background: inherit
+    cursor: pointer
+    align-items: center
+
+.level-icon
+    color: #5F98F5
+
+.sublevel-icon
+    color: #95FFAC
+
+.row-icon
+    color: #7890B2
+
+.create-sublevel-icon
+    color: #7890B2
+
+.table-input
+    width: calc( 100% - 12px )
+    background: inherit
+    color: #71717A
+    font-size: 14px
+    margin: 12px
+    padding: 9px 10px
+    border: 1px solid #414144
+    border-radius: 6px
+
+.dash
+    position: absolute
+    top: 30.9px
+    content: ""
+    background: #C6C6C6
+    width: 10px
+    border: 0.5px solid #C6C6C6
+
+.vertical-line
+    position: absolute
+    content: ""
+    height: 61.8px - 6.665px
+    border: 0.5px solid #C6C6C6
+    top: 37.25px

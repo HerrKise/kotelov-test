@@ -1,0 +1,19 @@
+%table-grid
+    display: grid
+    grid-template-columns: 110px 757px 200px 200px 200px 200px
+    justify-items: start
+    align-items: center
+    justify-content: center
+
+%table-font
+    padding: 12px
+    font-size: 14px
+    line-height: 18.2px
+    color: #FFFFFF
+    
+.main__table-header
+    @extend %table-grid
+
+.main__column-header
+    @extend %table-font
+    color: #a1a1aa
