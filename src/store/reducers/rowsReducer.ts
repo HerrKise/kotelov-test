@@ -15,7 +15,7 @@ const initialState: RowsState = {
             type: "level"
         }
     ],
-    currentEditingId: null,
+    currentEditingId: 1,
     error: null
 };
 
